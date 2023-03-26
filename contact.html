@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+
+  <script src="https://kit.fontawesome.com/870995ee8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <img class="logo" src="img/ipt-logo.png" alt="logo">
+   
+
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Product & Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <!---------------------------- CONTACT ---------------------------->
+  <section class="contact">
+
+    <div class="contact_container">
+      <div class="row">
+
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Us</h1>
+          <p><i class="fa-solid fa-house-user" id="taken"></i>
+          </i> Block 100 | Plot 7 | Ladipo Omotesho Cole | <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Lekki Phase 1 | Lagos, Nigeria.</p>
+          <p><i class="fa-solid fa-paper-plane" id="taken"></i> 2023course@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone" id="taken"></i> +2347063862944</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+         
+        </div>
+
+        <div class="contact-right">
+
+            
+            <form>
+              <fieldset>
+
+                <legend>Contact Form</legend>
+      
+                  <!---------------------------------- Name ---------------------------------->
+                  <label for="name1">Fullname:</label>
+                  <input type="text" name="name1" id="name1" placeholder="Your name" required  class="name1">
+      
+                  <br>
+                  <br>
+      
+                  <!--------------------------------- email ------------------------------>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" required placeholder="Enter your email" class="email" onclick="validation()">
+
+                  <span id="emailError" style="font-size: 15px" ></span>
+      
+                  <br>
+                  <br>
+      
+                  <!-------------------------------- Tel no ----------------------------->
+                  <label for="tel1">Phone Number:</label>
+                  <input type="tel" name="tel1" id="tel1" placeholder="+234-00-0000-0000" class="tel1">
+      
+                  <br>
+                  <br>
+
+                  <!-------------------------------- Message ----------------------------->
+                  <label for="message">Message:</label>
+                  <textarea name="message" rows="6" placeholder="Your Message" id="msg" class="msg11"></textarea>
+                      
+                 
+                  <input type="submit" value="Submit" class="btn">
+                 
+                  <div class="successful ">Form Submitted Successfully</div>
+                       
+              </fieldset>
+            </form>            
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+<script src="command.js"></script>
+</html>

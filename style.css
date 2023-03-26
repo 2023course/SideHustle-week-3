@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  /* font-family: montserrat; */
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+nav{
+  /* background: #0082e6; */
+  background: white;
+  height: 80px;
+  width: 100%;
+}
+
+.logo{
+  width: 300px; 
+  height: 45px;
+  margin: 20px 45px;
+  padding-left: 20px;
+}
+
+nav ul
+{
+  float: right;
+  margin-right: 40px;
+
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+
+nav ul li a{
+  color: rgba(14, 13, 13, 0.8);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  transition: .3s;
+  background-color: #D21C35;
+  color: white;
+  cursor: pointer;
+}
+
+
+.checkbtn
+{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check
+{
+  display: none;
+}
+
+section.cov 
+{
+  width: 100%;
+  height: 485px;
+  background-image: url(img/next.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.main
+{
+  width: 100%;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+div.content
+{
+  width: 45%;
+  line-height: 30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  text-align: left;
+  
+}
+
+div.head
+{
+  color: #D21C35;
+  font-size: 25px;
+  padding: 0px 0px 0px 10px;
+  font-weight: 700;
+  margin: 10px 0;
+ }
+
+ h3 span
+{
+  font-size: 30px;
+  color: #4F738A;
+  line-height: 32.5px;
+  font-weight: 800;
+  padding: 0px 0px 0px 10px;
+  margin: 5px 0;
+}
+
+p
+{
+  font-size: 20px;
+  color: #616161;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 0px 0px 10px;
+}
+
+.values
+{
+  padding: auto;
+  margin: 0 60px 6% 60px;
+}
+.value-list
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.value-list div
+{
+  border-radius:12px;
+  border: .2px solid #4F738A;
+  margin-bottom: 20px;
+}
+
+
+.value-list div:hover
+{
+  box-shadow: 4px 4px 15px rgb(182, 200, 206);
+  cursor: pointer;
+}
+
+.value-list div h3
+{
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 800;
+  text-align: center;
+  color: #4F738A;
+}
+
+.value-list div p
+{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  color: #616161;
+  padding: 10px 15px 10px 15px;
+}
+
+.value-list div i
+{
+  margin-top: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 60px;
+	background: #D21C35;
+ 	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center; 
+  margin-left: 40.6%;
+  margin-bottom: 25px;
+}
+
+
+/*--------------- PRODUCT -------------*/
+
+#product
+{
+  /* background-color: rgba(211, 207, 207, 0.293); */
+  /* background: rgba(242, 251, 224, 0.216); */
+  background: white;
+  padding: 30px 0 50px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  
+}
+#product:hover{
+  background: rgba(242, 251, 224, 0.416);
+}
+
+#container
+{
+  margin: 5% 20px 20px 20px;
+  padding: auto;
+  margin: 0 60px 0 60px;
+  
+}
+
+#product-list
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+#product-list div
+{
+  border-radius:12px;
+  border: .2px solid #4F738A;
+  margin-bottom: 20px;
+}
+
+#product-list div i
+{
+  margin-top: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 60px;
+	background: #D21C35;
+ 	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center; 
+  margin-left: 40%;
+  margin-bottom: 25px;
+}
+
+#product-list div h3
+{
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 800;
+  text-align: center;
+  color: #4F738A;
+}
+
+#product-list div p
+{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  color: #616161;
+  padding: 15px 20px 10px 20px;
+}
+
+
+/* ---------CONTACT ----------- */
+
+.contact_container
+{
+	padding: 20px 4% 20px 4%;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contact-left
+{
+	flex-basis: 35%;
+}
+
+.contact-right
+{
+	flex-basis: 50%;
+  margin: 0 3em 2em 2em;
+  max-width: 50em;
+  
+ }
+
+ .sub-title
+ {
+   color: #D21C35;
+   font-size: 40px;
+   font-weight: 700;
+ }
+
+ .contact-left p
+ {
+	margin-top: 30px;
+}
+
+.contact-left p i
+{
+	color: #D21C35;
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+.social-icons
+{
+	margin-top: 30px;
+  margin-left: 10px;
+}
+
+.social-icons a
+{
+	text-decoration: none;
+	font-size: 35px;
+	margin-right: 15px;
+	color: rgb(171, 171, 191);
+	display: inline-block;
+	transition: transform 0.5s;
+}
+
+.social-icons a:hover
+{
+	color: #D21C35;
+	transform: translateY(-5px);
+}
+
+.contact-right form
+{
+	width: 100%;
+  margin-top: 6%;
+}
+
+fieldset 
+{
+  margin-top: 1em;
+  padding: 2em;
+  border-color: #D21C35;
+  border-radius: 12px;
+}
+
+legend
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label
+{
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+{
+  transition: width 0.4s ease-in-out;
+  width: 100%;
+  padding: 10px 10px;
+  margin:5px 0;
+  box-sizing: border-box;
+  border-color: #D21C35;
+  border-radius: 6px;
+  color: black;
+}
+
+form textarea
+{
+  transition: width 0.4s ease-in-out;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px 0;
+  border: 2px solid #D21C35;
+  border-color: #D21C35;
+  box-sizing: border-box;
+	border-radius: 6px;
+}
+
+input[type="submit"] {
+  
+  background-color: rgba(210, 28, 53, 0.849);
+  color: white;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color .5s;
+
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(210, 28, 53);
+}
+
+input[value="Submit"]{
+  font-size: 1.2em;
+  font-weight: 500;
+  
+}
+
+.successful {
+  display: none;
+  margin: 5px 0 5px 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(210,28,53)
+ 
+}
+
+.successful.show{
+  display: block;
+  margin: 5px 0 5px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(210,28,53)
+}
+
+textarea::placeholder
+{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
